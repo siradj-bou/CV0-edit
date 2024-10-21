@@ -1,0 +1,158 @@
+*{
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color:#b9b8b3 ;
+    width: 100%;
+    min-height:100vh ;
+}
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color:#b9b8b3 ;
+}
+.my-information{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+.career{
+    height: 1400px;
+    width: 80%;
+   margin-right: 10px;
+    /* background-color:#b9b8b3 ; */
+    /* border: 1px solid black; */
+}
+
+.career1{
+    background-color: white;
+    /* background-color: blue; */
+    height: 50%;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius:10px ;
+    /* border: 1px solid blue; */
+}
+.title2{
+    display: flex;
+    align-items: center;
+}
+.title2 i{
+    font-size: 40px;
+    margin: 10px;
+   color:#009688 ; 
+}
+.title2 h1{
+    color: #757575;
+}
+.career2{
+    background-color: white;
+    height: 45%;
+    width: 100%;
+    border-radius:10px ;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+.date span{
+    color: white;
+    background-color:#009688 ;
+    border-radius: 2px;
+    font-size: 18px;
+}
+.career1 h2, .career2 h2{
+    color: gray;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.date{
+    display: flex;
+    align-items: center;
+    /* margin-left: 10px; */
+}
+.date i{
+    color:#009688 ;
+    margin: 10px;
+}
+.date h3{
+    color:#009688;
+    font-weight: 300;
+    font-size: 15px;
+}
+.career1 p, .career2 p{
+    margin-left: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image img{
+    width: 40%;
+    height: 40%;
+}
+.ps {
+    display: flex;
+    align-items: center;
+}
+.ps i{
+    margin: 10px;
+    color: #009688 ;
+}
+.ps p, .ps a{
+    color:#757575 ;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.ps a:hover{
+    color: brown;
+}
+.ps a:active{
+    color: brown;
+    text-decoration: underline;
+}
+.skills{
+    margin-left: 20px;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title i{
+    color: #009688 ;
+    margin: 10px;
+    font-size: 15px;
+}
+.title h1{
+    color:#757575 ;
+    font-size: 20px;
+}
+.skills p{
+    color:#757575 ;
+}
+.skills progress{
+    height: 20px;
+    width: 90%;
+    color: #009688;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+}
+    progress::-webkit-progress-bar {
+        background-color:#D3D3D3;
+        border-radius: 10px;
+    }
+    
+    progress::-webkit-progress-value {
+        background-color: #009688;
+        border-radius: 10px;
+    }
+    
+    progress::-moz-progress-bar {
+        background-color: #009688;
+    }
